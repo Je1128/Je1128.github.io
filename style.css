@@ -1,0 +1,189 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color:#eeb5ba;
+ font-family: 'Jomhuria', cursive;
+ text-align:center;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  padding: 20px;
+  font-size: 170px;
+  padding-left: 0.3em;
+  text-align: center;
+}
+
+#description {
+  font-size: 36px;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h2 {
+  padding: 0.3em;
+  text-align: center;
+  font-size: 50px;
+}
+
+#click {
+  font-size: 45px;
+  text-align: center;
+}
+
+#fact {
+  font-size: 36px;
+  text-align: center;
+  background-color: #d96d76;
+  /*padding-top: 0.35em;
+  padding-bottom: 0.35em;*/
+  padding:0.35em;
+  margin: 10px;
+}
+
+#bio {
+  font-size: 40px;
+}
+
+#contact {
+  font-size: 35px;
+}
+
+.ways-to-help {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.useful-resources{
+  text-align: center;
+  font-size: 35px;
+}
+
+#about-me {
+  font-size: 90px;
+}
+/* STYLE IMAGES */
+.logo-img {
+  width: 100%;
+  height: auto;
+    /*
+  width: 1300px;
+  height: 700px;*/
+}
+
+#me {
+  float:right;
+  width: 300px;
+  height: 400px;
+}
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+  background-color: #d96d76;
+}
+
+li.nav-item {
+  display: inline;
+  float:right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+li.nav-item a {
+  text-decoration: none;
+  color:black;
+  font-size: 2.5em;
+  float: right;
+}
+
+li.nav-item a:hover {
+  opacity: 60%;
+  background: pink;
+}
+
+
+li a {
+  text-decoration: none;
+  color:black;
+  font-size: 2.5em;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  background-color: #d96d76;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li a:hover {
+  opacity: 60%;
+  background: pink;
+}
+
+ul.nav-conatiner {
+  display: inline;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+
+/* STYLE BUTTONS */
+button {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 3px #888888;
+  font: inherit;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+#myButton {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+/* ADD MORE! */
+
+main{
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#bio{
+float: left;
+}
+
+#me{
+  float:right;
+  width: 300px;
+  height: 400px;
+}
+
+#sources{
+  text-align: center;
+  margin-bottom: 10px;
+}
